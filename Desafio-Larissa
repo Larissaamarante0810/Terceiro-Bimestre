@@ -1,0 +1,277 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Larissaamarante0810/Terceiro-Bimestre/blob/main/Desafio-Larissa\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "yl_OuPIDww0s"
+      },
+      "source": [
+        "# Teste prático\n",
+        "1 - Importando a Lib Image e trazendo a Imagem do Python.\n",
+        "\n",
+        "2 - Importando a Lib Image e trazendo a Imagem de uma loja de Acessórios de celular."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "y2H4lJi7ww0y",
+        "outputId": "d9969d90-4925-48ed-bc50-c646ea45c77b",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 92
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<img src=\"http://python.org/images/python-logo.gif\"/>"
+            ],
+            "text/plain": [
+              "<IPython.core.display.Image object>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ],
+      "source": [
+        "from IPython.display import Image\n",
+        "Image(url='http://python.org/images/python-logo.gif')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "oy2QxP96ww04",
+        "outputId": "d18c6db2-97e0-445b-88a7-b3d96c1ea131"
+      },
+      "outputs": [
+        {
+          "data": {
+            "text/html": [
+              "<img src=\"https://fra1.digitaloceanspaces.com/places/uploads/place/image/file/8118991/IMG-20210924-WA0002.jpg\"/>"
+            ],
+            "text/plain": [
+              "<IPython.core.display.Image object>"
+            ]
+          },
+          "execution_count": 13,
+          "metadata": {},
+          "output_type": "execute_result"
+        }
+      ],
+      "source": [
+        "from IPython.display import Image\n",
+        "Image(url='https://fra1.digitaloceanspaces.com/places/uploads/place/image/file/8118991/IMG-20210924-WA0002.jpg')"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "byLEHCVHww05"
+      },
+      "source": [
+        "# Exercício\n",
+        "1 - Importando a Lib Image e trazendo a Imagem de um Animal.\n",
+        "\n",
+        "2 - Importando a Lib Image e trazendo a Imagem de um time de Futebol.\n",
+        "\n",
+        "3 - Importando a Lib Image e trazendo a Imagem de um País.\n",
+        "\n",
+        "4 - Importando a Lib Image e trazendo a Imagem de um Carro.\n",
+        "\n",
+        "5 - Importando a Lib Image e trazendo a Imagem de um Parque Aquático."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "id": "wxHPVRZcww06",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 503
+        },
+        "outputId": "cb84f44c-298c-48f6-d46e-f81f10af4351"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<img src=\"https://www.petz.com.br/blog/wp-content/uploads/2020/04/vantagens-de-ter-um-cachorro-pet.jpg\"/>"
+            ],
+            "text/plain": [
+              "<IPython.core.display.Image object>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ],
+      "source": [
+        "Image(url='https://www.petz.com.br/blog/wp-content/uploads/2020/04/vantagens-de-ter-um-cachorro-pet.jpg')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "id": "BfonTqgrww07",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 529
+        },
+        "outputId": "670615b8-d405-4d14-96aa-c317560617b6"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx2b2vkJGA6eaVHOZoQAFeRDUq8M8MeuPhBBAAPWYvQXoG7Iw9BOVlUMPh&s=10\"/>"
+            ],
+            "text/plain": [
+              "<IPython.core.display.Image object>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ],
+      "source": [
+        "Image(url='')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Image(url='https://blog.theifriend.com/wp-content/uploads/2021/02/gran-via-madrid-espanha.jpg')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 877
+        },
+        "id": "7B27lPgP--sh",
+        "outputId": "3531ca4e-655b-4de1-dd95-c815c8ad6767"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<img src=\"https://blog.theifriend.com/wp-content/uploads/2021/02/gran-via-madrid-espanha.jpg\"/>"
+            ],
+            "text/plain": [
+              "<IPython.core.display.Image object>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "id": "yZg6jrpVww07",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 1000
+        },
+        "outputId": "7791a048-d10e-4ee2-8a12-42cc447d132b"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<img src=\"https://cdn.motor1.com/images/mgl/0eO33W/s1/vw-nivus-comfortline-200tsi-2026.jpg\"/>"
+            ],
+            "text/plain": [
+              "<IPython.core.display.Image object>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ],
+      "source": [
+        "Image(url='https://cdn.motor1.com/images/mgl/0eO33W/s1/vw-nivus-comfortline-200tsi-2026.jpg')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Image(url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSM2QukF38JHp4O9FoQ0zhiA4cjwKl6LjTIf4DrWXHOyoPIGKzNt2nNjCN&s=10')"
+      ],
+      "metadata": {
+        "id": "R9D_NqvrxqEt",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 408
+        },
+        "outputId": "c392fd01-f372-49d9-bcad-5fb29ee1fd2f"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSM2QukF38JHp4O9FoQ0zhiA4cjwKl6LjTIf4DrWXHOyoPIGKzNt2nNjCN&s=10\"/>"
+            ],
+            "text/plain": [
+              "<IPython.core.display.Image object>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3 (ipykernel)",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.9.13"
+    },
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
