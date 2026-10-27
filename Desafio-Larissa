@@ -24,7 +24,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 1,
+      "execution_count": null,
       "metadata": {
         "id": "y2H4lJi7ww0y",
         "outputId": "d9969d90-4925-48ed-bc50-c646ea45c77b",
@@ -87,57 +87,58 @@
       },
       "source": [
         "# Exercício\n",
-        "1 - Importando a Lib Image e trazendo a Imagem de um Animal.\n",
+        "1) Instalar a lib Imagem (1 ponto).\n",
         "\n",
-        "2 - Importando a Lib Image e trazendo a Imagem de um time de Futebol.\n",
+        "2) Trazer a Imagem do Python (1 ponto).\n",
         "\n",
-        "3 - Importando a Lib Image e trazendo a Imagem de um País.\n",
+        "3) Trazer uma Imagem da Escola (1 ponto).\n",
         "\n",
-        "4 - Importando a Lib Image e trazendo a Imagem de um Carro.\n",
+        "4) Trazer uma Imagem do seu time de coração (1 ponto).\n",
         "\n",
-        "5 - Importando a Lib Image e trazendo a Imagem de um Parque Aquático."
+        "5) Trazer a imagem de um animal (1 ponto)."
       ]
     },
     {
       "cell_type": "code",
-      "execution_count": 2,
+      "execution_count": 5,
       "metadata": {
         "id": "wxHPVRZcww06",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 503
+          "height": 441
         },
-        "outputId": "cb84f44c-298c-48f6-d46e-f81f10af4351"
+        "outputId": "72d62d37-4579-4975-d4a4-6631ba814723"
       },
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/html": [
-              "<img src=\"https://www.petz.com.br/blog/wp-content/uploads/2020/04/vantagens-de-ter-um-cachorro-pet.jpg\"/>"
+              "<img src=\"https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RYkxK34lTKsQGFCqC1ToCzDAEWxyXq9tFomrQoOerX4XdQDOAifpoGj1gZhqLvuNLV5nz16kM2a4TBV7tQL4DeqNVsFn4ThvrGLNpgIWHOc3W_YxASNNpFoBuuSMqUPScI0_TNcQ=s1360-w1360-h1020-rw\"/>"
             ],
             "text/plain": [
               "<IPython.core.display.Image object>"
             ]
           },
           "metadata": {},
-          "execution_count": 2
+          "execution_count": 5
         }
       ],
       "source": [
-        "Image(url='https://www.petz.com.br/blog/wp-content/uploads/2020/04/vantagens-de-ter-um-cachorro-pet.jpg')"
+        "from IPython.display import Image\n",
+        "Image(url='https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RYkxK34lTKsQGFCqC1ToCzDAEWxyXq9tFomrQoOerX4XdQDOAifpoGj1gZhqLvuNLV5nz16kM2a4TBV7tQL4DeqNVsFn4ThvrGLNpgIWHOc3W_YxASNNpFoBuuSMqUPScI0_TNcQ=s1360-w1360-h1020-rw')"
       ]
     },
     {
       "cell_type": "code",
-      "execution_count": 3,
+      "execution_count": 6,
       "metadata": {
         "id": "BfonTqgrww07",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 529
         },
-        "outputId": "670615b8-d405-4d14-96aa-c317560617b6"
+        "outputId": "c83ff326-200f-4415-b44e-72370cc0a5a6"
       },
       "outputs": [
         {
@@ -151,60 +152,35 @@
             ]
           },
           "metadata": {},
-          "execution_count": 3
+          "execution_count": 6
         }
       ],
       "source": [
-        "Image(url='')"
+        "from IPython.display import Image\n",
+        "Image(url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx2b2vkJGA6eaVHOZoQAFeRDUq8M8MeuPhBBAAPWYvQXoG7Iw9BOVlUMPh&s=10')"
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "Image(url='https://blog.theifriend.com/wp-content/uploads/2021/02/gran-via-madrid-espanha.jpg')"
+        "from IPython.display import Image\n",
+        "Image(url='https://vedovatipisos.com.br/wp-content/uploads/2015/12/ra%C3%A7as-de-cachorro.jpg')"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 877
+          "height": 766
         },
         "id": "7B27lPgP--sh",
-        "outputId": "3531ca4e-655b-4de1-dd95-c815c8ad6767"
+        "outputId": "26ffa0d5-5b9e-46a9-9e9c-1771dcd5a877"
       },
-      "execution_count": 5,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/html": [
-              "<img src=\"https://blog.theifriend.com/wp-content/uploads/2021/02/gran-via-madrid-espanha.jpg\"/>"
-            ],
-            "text/plain": [
-              "<IPython.core.display.Image object>"
-            ]
-          },
-          "metadata": {},
-          "execution_count": 5
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
       "execution_count": 7,
-      "metadata": {
-        "id": "yZg6jrpVww07",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 1000
-        },
-        "outputId": "7791a048-d10e-4ee2-8a12-42cc447d132b"
-      },
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/html": [
-              "<img src=\"https://cdn.motor1.com/images/mgl/0eO33W/s1/vw-nivus-comfortline-200tsi-2026.jpg\"/>"
+              "<img src=\"https://vedovatipisos.com.br/wp-content/uploads/2015/12/ra%C3%A7as-de-cachorro.jpg\"/>"
             ],
             "text/plain": [
               "<IPython.core.display.Image object>"
@@ -212,39 +188,6 @@
           },
           "metadata": {},
           "execution_count": 7
-        }
-      ],
-      "source": [
-        "Image(url='https://cdn.motor1.com/images/mgl/0eO33W/s1/vw-nivus-comfortline-200tsi-2026.jpg')"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "Image(url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSM2QukF38JHp4O9FoQ0zhiA4cjwKl6LjTIf4DrWXHOyoPIGKzNt2nNjCN&s=10')"
-      ],
-      "metadata": {
-        "id": "R9D_NqvrxqEt",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 408
-        },
-        "outputId": "c392fd01-f372-49d9-bcad-5fb29ee1fd2f"
-      },
-      "execution_count": 9,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/html": [
-              "<img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSM2QukF38JHp4O9FoQ0zhiA4cjwKl6LjTIf4DrWXHOyoPIGKzNt2nNjCN&s=10\"/>"
-            ],
-            "text/plain": [
-              "<IPython.core.display.Image object>"
-            ]
-          },
-          "metadata": {},
-          "execution_count": 9
         }
       ]
     }
